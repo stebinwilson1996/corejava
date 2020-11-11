@@ -15,11 +15,9 @@ public class RevrseOfNumbers {
 		{
 			m=n%10;
 			reverse=reverse*10+m;
-			n=n/10;
-	
-			
+			n=n/10;			
 		}
 		System.out.println(reverse);
-
+	 	s.close();
 	}
 }

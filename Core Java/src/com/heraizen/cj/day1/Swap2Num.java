@@ -16,6 +16,7 @@ public class Swap2Num {
 		a =b;
 		b =temp;
 		System.out.println("The swapped no are a="+a+" b="+b);
+		input.close();
 	}
 
 }

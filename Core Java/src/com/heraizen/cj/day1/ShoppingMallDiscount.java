@@ -9,14 +9,12 @@ public class ShoppingMallDiscount {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter the bill amount:");
 		int bill=scan.nextInt();
-		System.out.println("Do you have a membership card?, if it is card is there then press Y,else press N");
-		
+		System.out.println("Do you have a membership card?, if it is card is there then press Y,else press N");		
 		char card=scan.next().charAt(0);
 		int res = membership(bill,card);
 		int netamount=bill-res;
-		System.out.println("Thank you! Your total bill amount is Rs "+bill+", discount is Rs "+res+" and net amount payable is Rs "+netamount);
-		
-
+		System.out.println("Thank you! Your total bill amount is Rs "+bill+", discount is Rs "+res+" and net amount payable is Rs "+netamount);		
+	 	scan.close();
 	}
 	private static int membership(int bill, char card)
 	{

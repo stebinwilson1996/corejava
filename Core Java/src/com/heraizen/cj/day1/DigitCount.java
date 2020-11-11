@@ -17,5 +17,6 @@ public class DigitCount {
 		}
 		System.out.format("\n Number of Digits in a Given Number = %d", Count);
 
+	s.close();
 	}
 }

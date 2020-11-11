@@ -11,7 +11,7 @@ public class MultiplicationTable {
 		{
 			System.out.println(n*i);
 		}
-		
+		s.close();
 		
 
 	}

@@ -30,5 +30,6 @@ public class CountPrimeNo {
 			
 		}
 		System.out.println(k);
+		s.close();
 	}
 }

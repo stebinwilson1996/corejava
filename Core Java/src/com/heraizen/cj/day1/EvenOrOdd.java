@@ -17,6 +17,7 @@ public class EvenOrOdd {
 		{
 			System.out.println("The entered number "+n+" is odd");
 		}
+		ip.close();
 	}
 
 }

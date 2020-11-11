@@ -24,8 +24,8 @@ public class PrimeNumber {
         else
         {
         	System.out.println("The entered number "+n +" is not a prime number");
-        	
         }
+     	s.close();
 	}
 
 }

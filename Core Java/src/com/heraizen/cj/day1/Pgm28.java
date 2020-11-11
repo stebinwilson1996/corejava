@@ -8,8 +8,7 @@ public class Pgm28 {
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter any number:");
 		int n= s.nextInt();
-		int i, j;  
-		
+		int i, j;  		
         for(i=0; i<n; i++)
 		{
 			
@@ -21,6 +20,6 @@ public class Pgm28 {
 			}
 			System.out.println();
 		}
-
+     	s.close();
 	}
 }

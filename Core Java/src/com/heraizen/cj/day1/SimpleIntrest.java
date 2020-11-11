@@ -5,9 +5,7 @@ import java.util.Scanner;
 public class SimpleIntrest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		
+		// TODO Auto-generated method stub		
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter the  amount:");
 		float p= input.nextInt();
@@ -17,6 +15,7 @@ public class SimpleIntrest {
 		int t= input.nextInt();
 		float SimpleIntrest=((p*t*r)/100);
 		System.out.println("Simple interest will be "+SimpleIntrest);
+	 	input.close();
 	}
 
 }

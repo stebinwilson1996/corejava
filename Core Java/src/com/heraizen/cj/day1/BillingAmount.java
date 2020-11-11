@@ -18,6 +18,7 @@ public class BillingAmount {
 			int k=n-((n*10)/100);
 			System.out.println("ur net billing amount: "+k);
 		}
+		input.close();
 	}
 
 }

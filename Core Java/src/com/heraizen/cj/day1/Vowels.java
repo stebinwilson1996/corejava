@@ -21,7 +21,6 @@ public class Vowels {
 		default:
 			System.out.println(ch +" is consonant");
 		}
-
+		s.close();
 	}
-
 }

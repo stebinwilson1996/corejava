@@ -10,15 +10,14 @@ public class SumofDigitUptoSingleDigit {
 		int n = s.nextInt();
 		int res=sum(n);
 		System.out.println(res);
-		
+		s.close();
 	}
 	
 	private static int sum(int n)
 	{
 		int s=0,m;
 		while(n>0)
-		{
-		
+		{		
 		m=n%10;
 		s =s +m;
 		n=n/10;

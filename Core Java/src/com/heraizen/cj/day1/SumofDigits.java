@@ -19,6 +19,6 @@ public class SumofDigits {
 			
 		}
 		System.out.println(sum);
-
+		s.close();
 	}
 }

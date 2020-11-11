@@ -17,6 +17,7 @@ public class DisplaySeriesAndSum {
 		}
 
 		System.out.println("Sum Of Series is "+sum);
+		s.close();
 	}
 
 }

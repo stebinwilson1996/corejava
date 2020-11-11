@@ -21,8 +21,9 @@ public class SportsClubRegistration {
 		}
 		else
 		{
-			System.out.println("Congratulations "+name+" for your successful registration.");
+			System.out.println("Congratulations "+name+" for your successful registration with the mobile number ."+mobileNo);
 		}
+	 	op.close();
 	}
 
 }

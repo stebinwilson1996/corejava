@@ -12,7 +12,7 @@ public class NnaturalNumbers {
         {
         	System.out.print(i);
         }
-
+     	s.close();
 	}
 
 }

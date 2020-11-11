@@ -12,6 +12,7 @@ public class DiffBtwNoOnlyPositive {
 		System.out.println("Enter the second number num1:");
 		int num2=scan.nextInt();
 		difference(num1,num2);
+		scan.close();
 		}
 	private static void difference(int num1,int num2)
 	{
@@ -24,7 +25,7 @@ public class DiffBtwNoOnlyPositive {
 		{
 			System.out.println("The result (difference) is: "+(num2-num1));
 		}
-		
+	
 	}
 
 	}

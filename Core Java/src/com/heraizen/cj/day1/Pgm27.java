@@ -10,18 +10,15 @@ public class Pgm27 {
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter any number:");
 		int n= s.nextInt();
-		int i, j;  
-		
+		int i, j;  		
         for(i=1; i<=n; i++)
-		{
-			
-			for(j=1; j<=i; j++) 
-               
+		{			
+			for(j=1; j<=i; j++)                
 			{
-					System.out.print(j +" ");
-				
+					System.out.print(j +" ");				
 			}
 			System.out.println();
 		}
+     	s.close();
 	}
 }

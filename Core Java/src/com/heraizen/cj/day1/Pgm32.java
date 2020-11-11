@@ -9,10 +9,8 @@ public class Pgm32 {
 		System.out.println("Enter any number:");
 		int n= s.nextInt();
 		int i, j; 
-
         for(i=0; i<n; i++)
-		{
-			
+		{			
 			for(j=0; j<n; j++)
 			{
 			if(j==0 || j==n-1 && i!=0  && i!=n/2 || i==0 && j!=n-1 || i==n/2 && j!=n-1      )
@@ -26,6 +24,7 @@ public class Pgm32 {
 			}
 		System.out.println();
 		}
+     	s.close();
 	}
 	
 	

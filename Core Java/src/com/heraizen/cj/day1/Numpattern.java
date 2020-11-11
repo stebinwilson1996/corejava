@@ -8,20 +8,15 @@ public class Numpattern {
 		System.out.println("Enter any number:");
 		int n= s.nextInt();
 		int i, j;  
-		int c=1;
-		
+		int c=1;		
         for(i=0; i<n; i++)
 		{
-			
-			for(j=0; j<n-i; j++) 
-               
+			for(j=0; j<n-i; j++)                
 			{
-					System.out.print(c++ +" ");
-				
+					System.out.print(c++ +" ");				
 			}
 			System.out.println();
 		}
-
-
+     	s.close(); 
 	}
 }

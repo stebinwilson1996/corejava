@@ -19,6 +19,7 @@ public class GradeOfStudent {
         System.out.println("Total marks: "+totalmarks);
         System.out.println("Average is: "+avg);
         grade(avg);
+    	s.close();
        }
 	
 	private static void grade(float avg)

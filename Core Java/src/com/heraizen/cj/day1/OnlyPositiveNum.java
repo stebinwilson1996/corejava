@@ -20,8 +20,7 @@ public class OnlyPositiveNum {
 		if(n==0) {
 			System.out.println("number iss:"+n);
 			}
-		
-		
+	 	in.close();
 	}
 
 }

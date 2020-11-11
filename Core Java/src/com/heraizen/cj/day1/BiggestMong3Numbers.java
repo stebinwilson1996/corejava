@@ -15,6 +15,7 @@ public class BiggestMong3Numbers {
         System.out.print("Enter the third number:");
         z = s.nextInt();
         biggest(x,y,z);
+    	s.close();
 	}
         private static void biggest(int x,int y,int z)
         {

@@ -32,7 +32,7 @@ public class PrimeNumBtwLimit {
 				System.out.println(i);
 			}
      	}
-        	
+	 	s.close();
         }
 
 }

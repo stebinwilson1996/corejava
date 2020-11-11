@@ -20,5 +20,6 @@ public class Pgm26 {
 			}
 			System.out.println();
 		}
+     	s.close();
 	}
 }

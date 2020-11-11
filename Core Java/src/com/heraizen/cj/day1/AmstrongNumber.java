@@ -26,6 +26,6 @@ public class AmstrongNumber {
 		{
 			System.out.println("This is Not Amstrong number");
 		}
-
+s.close();
 	}
 }

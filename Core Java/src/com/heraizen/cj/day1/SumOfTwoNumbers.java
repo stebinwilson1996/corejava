@@ -13,6 +13,7 @@ System.out.println("Enter ur 2nd number");
 int b= input.nextInt();
 int sum=a+b;
 System.out.println("the sum is " +sum);
+input.close();
 	}
 
 }

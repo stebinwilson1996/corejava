@@ -13,17 +13,15 @@ public class pattern {
 		{
 			num+=i;
 			num*=10;
-			k*=10;
-			
+			k*=10;		
 		}
 		num/=10;
 		k/=10;
 		for(int i=1;i<=n;i++)
-		{
+		{	
 			System.out.println(num);
 			num=(num%10)*k+(num/10);
-			
 		}
-		
+	 	s.close();
 	}
 }

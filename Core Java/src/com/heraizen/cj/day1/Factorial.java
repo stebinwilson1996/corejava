@@ -10,7 +10,7 @@ public class Factorial {
 		int n= s.nextInt();
 		int res=fact(n);
 		System.out.println(res);
-		
+		s.close();
 	}
 	private static int fact(int n)
 	{

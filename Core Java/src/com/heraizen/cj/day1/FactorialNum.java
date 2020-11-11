@@ -10,7 +10,7 @@ public class FactorialNum {
 		System.out.println("\n Please Enter any Number: ");
 		int n = s.nextInt();
 		fact(n);
-		
+		s.close();
 
 	}
 	private static void fact(int n)

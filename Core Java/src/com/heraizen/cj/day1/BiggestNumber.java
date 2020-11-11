@@ -19,6 +19,7 @@ public class BiggestNumber {
 		{
 			System.out.println("The biggest number is "+b);
 		}
+		ip.close();
 	}
 
 }

@@ -13,7 +13,6 @@ public class NaturalNumbersReverse {
         {
         	System.out.print(i);
         }
-
-
+    	s.close();
 	}
 }

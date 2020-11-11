@@ -17,6 +17,7 @@ float total=a+b+c;
 float avg=total/3;
 System.out.println("Weight of 3 person is "+total);
 System.out.println("Average Weight of 3 person is "+avg);
+input.close();
 	}
 
 }

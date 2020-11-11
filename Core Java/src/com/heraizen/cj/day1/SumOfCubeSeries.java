@@ -12,19 +12,18 @@ public class SumOfCubeSeries {
 					int n= s.nextInt();
 					double res = sum(n);
 					System.out.println(res);
+					s.close();
 					}
 					private static double sum(int n)
 					{
 					if(n<1)
 					{
-						return 0;
-						
-						
+						return 0;						
 					}
 					else
 					{
 						return Math.pow(n, -3)+(n-1);
-					}
+					}				 	
 				}
 	}
 

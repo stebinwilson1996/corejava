@@ -16,5 +16,6 @@ public class SumOfSeries {
 			sum=sum+1/i;
 		}
 		System.out.print("sum is"+ sum);
+		s.close();
 	}
 }
